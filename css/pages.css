@@ -42,6 +42,10 @@ li a {
     margin: auto;
 }
 
+.seccio_senar{
+    border-top: 0.250em  ;
+}
+
 .seccio_parella * {
     width: 960px;
     margin: auto;
@@ -100,4 +104,19 @@ footer * {
 .col-md-3-custom {
     width: 25% !important;
     float: left !important;
+}
+
+.subtitle{
+    margin: 0 0 0.615em 0;
+    display: inherit;
+    margin: initial;
+    padding: initial;
+}
+
+.right{
+    border-bottom: 2px solid #ddd;
+}
+
+.right p{
+    margin: 0;
 }

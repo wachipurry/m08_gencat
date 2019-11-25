@@ -34,3 +34,15 @@ li a:active {
 footer {
     background: #f5f5f5;
 }
+
+.seccio_senar{
+    border-top:solid #fff !important;
+}
+
+.subtitle{
+    color: #666;
+}
+
+.right{
+    color: #666;
+}
