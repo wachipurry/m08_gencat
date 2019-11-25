@@ -3,6 +3,20 @@
     color: #fff;
 }
 
+li {
+    color: #999;
+    _border: 1px solid red;
+}
+
+li a {
+    border-right: 1px solid white;
+    color: #fff;
+}
+
+li:nth-of-type(1) a {
+    border-left: 1px solid white;
+}
+
 li a:hover {
     background-color: #bbb;
     color: #999;
@@ -14,5 +28,9 @@ li a:active {
 }
 
 .seccio_senar {
+    background: #f5f5f5;
+}
+
+footer {
     background: #f5f5f5;
 }

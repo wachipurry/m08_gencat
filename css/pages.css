@@ -19,6 +19,24 @@ body {
     height: 100%;
 }
 
+ul {
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    _float: left;
+    list-style: none;
+    font-family: "OpenSansSemibold", sans-serif;
+    _font-weight: 600;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 1.125em;
+}
+
 .seccio_senar * {
     width: 960px;
     margin: auto;
