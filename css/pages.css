@@ -60,6 +60,52 @@ footer * {
     margin: auto;
 }
 
+.llista_simple {
+    border-bottom: none;
+    overflow: hidden;
+    padding: 0.875em 0 0.875em 15px;
+}
+
+.llista_simple>li {
+    border-top: none;
+    border-radius: 0;
+    padding-top: 13px;
+    border-bottom: none;
+    padding-left: 0;
+    padding-bottom: 0.463em;
+    list-style-position: inside;
+    border: none;
+    position: relative;
+    color: #333;
+    display: block;
+}
+
+.llista_simple>li>a {
+    display: block;
+    text-align: left;
+    padding: 0 2em .6em 1em;
+    width: 80%;
+    height: 25px;
+    word-break: break-word;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    position: relative;
+}
+
+.llista_simple>li>a::before {
+    content: "\2022";
+    font-size: 1.05em;
+    position: absolute;
+    left: 0;
+    color: #bf0000;
+    box-sizing: border-box;
+}
+
+.col-md-3-custom {
+    width: 25% !important;
+    float: left !important;
+}
+
 .subtitle{
     margin: 0 0 0.615em 0;
     display: inherit;
@@ -74,5 +120,3 @@ footer * {
 .right p{
     margin: 0;
 }
-
-
