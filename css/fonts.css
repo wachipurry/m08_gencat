@@ -20,3 +20,9 @@ li {
 .right{
    font-size: 0.813em;
 }
+
+.llista-especial{
+    font-size: 0.875em;
+    font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+}
+

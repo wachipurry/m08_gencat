@@ -27,16 +27,16 @@ li a:active {
     color: #999;
 }
 
-.seccio_senar {
-    background: #f5f5f5;
-}
+
 
 footer {
     background: #f5f5f5;
 }
 
-.seccio_senar{
+.row{
     border-top:solid #fff !important;
+    background: #fff;
+
 }
 
 .subtitle{
@@ -44,5 +44,9 @@ footer {
 }
 
 .right{
+    color: #666;
+}
+
+.llista-especial{
     color: #666;
 }
