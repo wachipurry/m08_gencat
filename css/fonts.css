@@ -6,3 +6,11 @@ body {
     font-size: 28px;
     font-weight: 600;
 }
+
+li {
+    font-family: 'OpenSansSemibold', sans-serif;
+    _font-weight: 600;
+}
+
+
+}

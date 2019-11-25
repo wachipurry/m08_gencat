@@ -1,0 +1,18 @@
+.header {
+    background-color: #333;
+    color: #fff;
+}
+
+li a:hover {
+    background-color: #bbb;
+    color: #999;
+}
+
+li a:active {
+    background-color: white;
+    color: #999;
+}
+
+.seccio_senar {
+    background: #f5f5f5;
+}
