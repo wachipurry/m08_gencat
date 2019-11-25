@@ -11,3 +11,18 @@ li {
     font-family: "OpenSansSemibold", sans-serif;
     _font-weight: 600;
 }
+
+.subtitle{
+    font-weight: inherit;
+    font-size: 1.625em;
+}
+
+.right{
+   font-size: 0.813em;
+}
+
+.llista-especial{
+    font-size: 0.875em;
+    font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+}
+
