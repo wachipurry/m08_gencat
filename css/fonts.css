@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .header_titol {
@@ -8,9 +8,6 @@ body {
 }
 
 li {
-    font-family: 'OpenSansSemibold', sans-serif;
+    font-family: "OpenSansSemibold", sans-serif;
     _font-weight: 600;
-}
-
-
 }
