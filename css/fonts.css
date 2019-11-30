@@ -1,12 +1,17 @@
 body {
     font-family: "Open Sans", sans-serif;
+    font-size: 1em;
 }
 
 .header_titol {
     font-size: 28px;
     font-weight: 600;
 }
+h2{
+    font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+    font-size: 28px;
 
+}
 li {
     font-family: "OpenSansSemibold", sans-serif;
     _font-weight: 600;
@@ -26,3 +31,7 @@ li {
     font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
 }
 
+
+.llista_simple>li>a::before {
+    font-size: 1.05em;
+}

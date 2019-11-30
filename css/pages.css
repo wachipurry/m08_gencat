@@ -11,14 +11,24 @@ body {
 }
 
 .header_content {
-    width: 960px;
+    width: 100%;
     margin: auto;
+   
 }
 
 .header {
+    padding-top:10px;
     height: 100%;
-}
+    min-height: 1px;
+    padding-left: 26.5px;
+    padding-right: 6.5px;
 
+}
+img{
+    width: 100%;
+    height: auto;
+    margin:0 0 38px;
+}
 ul {
     padding: 0px;
 }
@@ -27,8 +37,6 @@ li {
     display: inline-block;
     _float: left;
     list-style: none;
-    font-family: "OpenSansSemibold", sans-serif;
-    _font-weight: 600;
 }
 
 li a {
@@ -41,6 +49,9 @@ li a {
 
 .row{
     border-top: 0.250em  ;
+    padding-right: 15px;
+padding-left: 15px;
+padding-top:2.500em;
 }
 
 .row * {
@@ -73,7 +84,6 @@ footer * {
     list-style-position: inside;
     border: none;
     position: relative;
-    color: #333;
     display: block;
 }
 
@@ -85,16 +95,13 @@ footer * {
     height: 25px;
     word-break: break-word;
     border-bottom: 1px solid #ddd;
-    color: #333;
     position: relative;
 }
 
 .llista_simple>li>a::before {
     content: "\2022";
-    font-size: 1.05em;
     position: absolute;
     left: 0;
-    color: #bf0000;
     box-sizing: border-box;
 }
 
@@ -112,6 +119,7 @@ footer * {
 
 .right{
     border-bottom: 2px solid #ddd;
+    width:50%;
 }
 
 .right p{
