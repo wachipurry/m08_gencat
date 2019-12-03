@@ -3,6 +3,10 @@
     color: #fff;
 }
 
+.header_titol {
+    color: #fff;
+}
+
 li {
     color: #999;
     _border: 1px solid red;
@@ -27,31 +31,27 @@ li a:active {
     color: #999;
 }
 
-
-
 footer {
     background: #f5f5f5;
 }
 
-.row{
-    border-top:solid #fff !important;
+.row {
+    border-top: solid #fff !important;
     background: #fff;
-    color:#666;
-
-}
-
-.subtitle{
     color: #666;
 }
 
-.right{
+.subtitle {
     color: #666;
 }
 
-.llista-especial{
+.right {
     color: #666;
 }
 
+.llista-especial {
+    color: #666;
+}
 
 .llista_simple>li {
     color: #666;
@@ -65,3 +65,6 @@ footer {
     color: #bf0000;
 }
 
+.avis_legal {
+    color: #999;
+}

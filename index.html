@@ -6,10 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="css/iam.css">
     <link rel="stylesheet" type="text/css" href="css/colors.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/pages.css">
+
 
     <title>Institut Ausiàs March / Presentació </title>
 </head>
@@ -17,18 +24,18 @@
 <body>
     <div class="header">
         <div class="header_content">
-            <div class="header_logo"><img src="data:image/png;base64,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"></div>
+            <div class="header_logo"><img src="img/NG_logo_generalitat.png"></div>
             <div class="header_titol">Institut Ausiàs March</div>
             <div class="header_menu">
                 <ul>
                     <li>
-                        <a href="#1">Inici</a>
+                        <a href="index.html">Inici</a>
                     </li>
                     <li>
-                        <a href="#2">Estudis</a>
+                        <a href="missio.html">Ideari</a>
                     </li>
                     <li>
-                        <a href="#3">Programa</a>
+                        <a href="visio.html">La visió</a>
                     </li>
                 </ul>
             </div>
@@ -36,113 +43,43 @@
         </div>
     </div>
     <!--MAIN-->
-    <div id="main">
+    <div id="main" class="container">
         <!--ROW-->
         <div class="row">
             <!--ZONA LEFT-->
-            <div class="left">
-                <div class="subtitle">
-                    <h2>Descripció</h2>
-                </div>
+            <div class="left col-lg-6">
+                <h2 class="subtitle">Descripció</h2>
                 <div class="basic_text">
                     <p>L’Institut Ausiàs March és un centre públic català dependent de la Generalitat de Catalunya fundat a l’any 1933. D’acord amb la normativa vigent, el centre és laic, respecta el pluralisme i practica la coeducació. Al centre s’imparteixen
                         els ensenyaments d’ESO (Ensenyament Secundari Obligatori), Batxillerat i Cicles Formatius de la família d’informàtica.
                     </p>
                 </div>
-                <div class="subtitle">
-                    <h2>La missió de l’institut</h2>
-                </div>
                 <div class="basic_text">
-                    <p>L’institut vol ser dia a dia un centre d’ensenyament fort, no estovat, en el qual els sabers ocupin un lloc central en la formació dels seus alumnes. A través del seu aprenentatge i de la metodologia emprada, cada alumne ha de desenvolupar
-                        les seves capacitats i accedir a un procés de millora contínua en les seves competències.</p>
-                    <p>L’alumne és la raó de ser del centre. A ell va adreçat l’esforç quotidià del professorat.</p>
-                    <p>Els seus professors amb els seus talents constitueixen el tresor més preuat de l’Institut. Tenen una excel·lent i continuada formació específica, i es caracteritzen pel seu compromís amb l’Institut.</p>
-                    <p>El centre, a través dels professors i la resta de persones vinculades, acompanya també cada alumne en el seu personal procés de socialització progressiva per tal d’aconseguir que arribin a estar compromesos amb la família, el grup-classe,
-                        el propi Institut i la societat, i que siguin capaços de fer front amb maduresa a les seves obligacions i de fer valer els seus drets.</p>
-                    <p>La base i el suport de l’acció educativa del centre és la convivència tranquil·la fonamentada en el respecte a les normes que la regulen, de manera que generi un estat emocional de confiança, de responsabilitat, de llibertat i d’afecte
-                        entre professors i alumnes. Un ensenyament rigorós genera efectes positius molt importants en la convivència.</p>
-                    <p>Els eixos, doncs, de l’acció educativa de l’Institut Ausiàs March són la bona convivència i l’excel·lència en els processos d’aprenentatge. Tots dos són remarcables indicadors de la qualitat educativa del centre.</p>
-                    <p>L’Ausiàs March busca de manera insistent generar la confiança necessària entre les famílies del seu entorn per tal que el sigui confiada la formació dels seus fills i de les seves filles, amb el compromís de l’Institut de procurar
-                        el màxim desenvolupament de les seves capacitats, i amb el compromís dels pares i mares de fer l’acompanyament emocional i afectiu que fan eficaç la tasca docent.</p>
-                    <p>Reconeix com a prioritària la tasca d’educar de forma progressiva i transversal el seu caràcter a través de l’acció col·lectiva de tots els seus professors i de la seva família treballant de forma cooperativa. Una persona amb un caràcter
-                        adequat és aquella que practica l’autodisciplina amb determinació, que formula objectius personals i està acostumada a assolir-los amb independència de l’esforç que calgui fer, que té interioritzades pautes ètiques basades en el
-                        respecte, el sentit de la responsabilitat en el marc de la veritat, la coherència, l’honestedat i la integritat, el sentit de la justícia, la força moral i la justícia, i que sap presentar resistència a la dificultat tot generant
-                        recursos per superar-la.
-                    </p>
-                    <p>Té com objectiu fonamental la transmissió de sabers als seus alumnes, amb els mètodes pedagògics i estratègies més d’acord al perfil de cada alumne. Els sabers i els mètodes emprats en adquirir-los han de proporcionar-los la cultura
-                        necessària per identificar, contextualitzar, globalitzar i afrontar els problemes multidimensionals, globals i fonamentals que se’ls puguin plantejar.</p>
-                    <p>Fa especial èmfasi en l’ensenyament de les llengües anglesa, francesa i alemanya, endemés de la catalana i la castellana. Totes elles són factors determinants en el desenvolupament de no poques capacitats generals que permeten assolir
-                        aprenentatges més complexos.</p>
-                    <p>L’Institut educa per a la comprensió i interrelació humanes entre pròxims i entre llunyans, desenvolupant així el seu potencial social i la capacitat de treballar en equip.</p>
-                    <p>Apropa els alumnes a la història del país i a la ciutadania, inclosa l’europea i mundial per tal d’acostumar-los a viure en un món globalitzat. Promou intercanvis culturals i lingüístics.</p>
-                    <p>Ressalta la importància de la pràctica de l’exercici físic a través de les classes d’educació física amb la finalitat d’assolir un bon desenvolupament físic, consolidar hàbits corporals saludables, i ajudar a desenvolupar la cultura
-                        de l’esforç individual i l’esperit de superació personal.</p>
-                    <p>Habitua l’alumne en la pràctica de l’esport cooperatiu. Beneficiós per a la salut, comporta també aprendre a respectar els altres, compartir alegries i sofriments, i col·labora a entrar en la cultura de l’esforç col·lectiu.</p>
-                    <p>Apropa l’alumne al fet musical des de diversos punts de vista. La música és una de les grans activitats que poden donen plaer i goig intel·lectual als nostres alumnes.</p>
-                    <p>Fomentar la sensibilitat audiovisual i plàstica dels alumnes amb l’aprenentatge de diverses tècniques i la realització d’activitats variades.</p>
-                    <p>Ofereix formació en expressió teatral. D’aquesta manera l’alumne aprendrà a desenvolupar l’expressió corporal, memoritzar i treballar en grup. I tindrà unes fortes compensacions emocionals i intel·lectuals.</p>
-                    <p>Realitza una tasca constant de conscienciació de l’alumne envers l’evolució del medi ambient en el nostre planeta i de promoció d’hàbits personals i col·lectius que col·laborin a la seva millora. El mes de maig de 2009 l’Institut va
-                        obtenir la declaració d’Escola Verda.</p>
-                    <div class="subtitle">
-                        <h2>La visió de l’institut</h2>
-                    </div>
-
-                    <p>
-                        L'Institut
-                    </p>
-                    <ul class="llista_simple">
-                        <li>
-                            vol educar els alumnes per respondre als desafiaments que planteja al coneixement humà la complexitat creixent dels problemes. Això comporta acostumar-los a treballar amb rigor i sentit crític de manera que siguin capaços de generar solucions alternatives.
-                        </li>
-                        <li>
-                            vol treballar per assolir un bon nivell en el coneixement i divulgació de les ciències, tot impulsant la interrelació entre les diverses àrees científiques i tecnològiques.
-                        </li>
-                        <li>
-                            vol normalitzar l’ús de les eines informàtiques en els processos d’aprenentatge: fent servir els llibres digitals i treballant en xarxa. Es vol respondre de manera eficaç al perfil de l’alumne digitalitzat que està acostumat a la multitasca, a l’accés
-                            aleatori, al món de les xarxes, divertit i de recompenses ràpides que ha desenvolupat rutes neuronals diferents per absorbir, processar i emmagatzemar la informació, el coneixement i les seves relacions.
-                        </li>
-                        <li>
-                            precisa de la col·laboració activa de les respectives famílies dels alumnes en el procés de desenvolupament com a persones. Únicament així els professors poden estimular amb èxit les seves capacitats i habilitats. En destaquen la del lideratge i la del
-                            servei als altres.
-                        </li>
-                        <li>
-                            ha de transmetre les respostes que la història del pensament ha donat al sentit de la transcendència i també les diferents cosmovisions que s’han plantejat en totes les cultures al llarg del temps. I hi ha de trobar les seves.
-                        </li>
-                        <li>
-                            s’esforça perquè el perfil sociològic del conjunt dels seus alumnes s’aproximi al perfil del conjunt de la societat, la qual cosa possibilita la convivència de representants de totes les classes socials, totes les idees polítiques i totes les pràctiques
-                            religioses o laiques. La riquesa formativa d’un alumne és més gran com més ampla és la franja sociològica del conjunt d’ells.
-                        </li>
-                        <li>
-                            vol millorar la formació musical dels alumnes amb la posada en marxa d’una coral pròpia que ha de servir per cultivar el sentit musical, cohesionar i fomentar l’entusiasme i l’esforç col·lectiu.
-                        </li>
-                        <li>
-                            aspira a desenvolupar una cultura avaluadora pròpia, que sigui aplicable a la totalitat dels seus alumnes i que faciliti una avaluació interna de l’Institut que permeti implementar accions educatives de millora en tots els processos.
-                        </li>
-                        <li>
-                            necessita l’estreta i organitzada col·laboració de les famílies dels alumnes per a millorar l’acció educativa. És per això que cada curs tindrà un representant dels pares que coordini i transmeti les inquietuds i propostes de millora a la direcció de
-                            l’Institut.
-                        </li>
-
-                    </ul>
+                    <a href="profes.html">professors</a>
                 </div>
             </div>
             <!-- ZONA FOTO -->
-            <div class="right">
+            <div class="right col-lg-6">
+
+                <figure>
+                    <img src="https://picsum.photos/300/200">
+                    <figcaption>hola</figcaption>
+                </figure>
             </div>
         </div>
-        <div class="right">
-
-        </div>
     </div>
-    <div class="fons-footer"></div>
+    <!--FOOTER-->
+    <div class="fons-footer">
 
 
-    <footer>
-        <p>Avís legal: D’acord amb l’article 17.1 de la Llei 19/2014, la ©Generalitat de Catalunya permet la reutilització dels continguts i de les dades sempre que se'n citi la font i la data d'actualització i que no es desnaturalitzi la informació (article
-            8 de la Llei 37/2007) i també que no es contradigui amb una llicència específica.</p>
-
-    </footer>
-    <div>
+        <footer>
+            <div class="avis_legal">
+                <img src="http://guiaweb.gencat.cat/web/resources/fwkResponsives/common/img/logo_generalitat_gris.png_679097835.png">
+                <p>Avís legal: D’acord amb l’article 17.1 de la Llei 19/2014, la ©Generalitat de Catalunya permet la reutilització dels continguts i de les dades sempre que se'n citi la font i la data d'actualització i que no es desnaturalitzi la informació
+                    (article 8 de la Llei 37/2007) i també que no es contradigui amb una llicència específica.</p>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>

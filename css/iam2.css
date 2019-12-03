@@ -1,0 +1,218 @@
+body {
+    font-size: 1em;
+    font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    color: #333;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    min-height: 100%;
+    top: 0px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    position: relative;
+    min-height: 50px;
+}
+
+.negre {
+    background: #333 !important;
+}
+
+.fons_header .cercador_vermell {
+    margin-top: 0.625em;
+}
+
+.fons_header {
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    position: absolute;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+}
+
+.navbar .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+    max-height: none;
+    text-indent: 0;
+    background: #333;
+    border: none;
+}
+
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+
+.container>.navbar-header,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container-fluid>.navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #e7e7e7;
+}
+
+.fpca_capcalera .navbar-collapse {
+    position: relative;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12 {
+    float: left;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.navbar-collapse .column {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    background: transparent;
+}
+
+nav a {
+    color: #fff;
+}
+
+a,
+a:focus,
+a:target {
+    outline: none;
+}
+
+.img-responsive {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+header nav a.logo {
+    background: url('/img/NG_logo_generalitat.png') no-repeat 0 0;
+    height: 2em;
+    text-indent: -555em;
+    margin: 0.92em 0;
+}
+
+header nav.navbar-collapse .logo,
+header .col-md-12 ul {
+    margin-top: 0.7em;
+}
+
+.titol-cap-nou {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'OpenSansSemiBold', Helvetica, Arial, sans-serif;
+    float: left;
+}
+
+.fpca_capcalera .titol-cap-nou {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'OpenSansSemiBold', Helvetica, Arial, sans-serif;
+    text-align: left;
+    margin-top: -4px;
+}
+
+.fpca_capcalera .titol-cap-nou.car50 {
+    font-size: 1.750em;
+}

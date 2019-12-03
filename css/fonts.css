@@ -4,34 +4,48 @@ body {
 }
 
 .header_titol {
+    font-family: 'OpenSansSemiBold', Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: 600;
 }
-h2{
+
+.header_menu {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h2 {
     font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
     font-size: 28px;
-
 }
+
+.subtitle {
+    font-weight: inherit;
+    font-size: 1.625em;
+}
+
+h2.subtitle {
+    margin: 0 0 0.615em 0;
+}
+
 li {
     font-family: "OpenSansSemibold", sans-serif;
     _font-weight: 600;
 }
 
-.subtitle{
-    font-weight: inherit;
-    font-size: 1.625em;
+.right {
+    font-size: 0.813em;
 }
 
-.right{
-   font-size: 0.813em;
-}
-
-.llista-especial{
+.llista-especial {
     font-size: 0.875em;
     font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
 }
 
-
 .llista_simple>li>a::before {
     font-size: 1.05em;
+}
+
+.avis_legal {
+    font-size: 0.688em;
 }
