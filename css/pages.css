@@ -151,6 +151,11 @@ figcaption {
     width: 66%;
 }
 
+.imgProfessor{
+    width: 250px !important;
+    height: 250px !important;
+}
+
 .right p {
     margin: 0;
 }
