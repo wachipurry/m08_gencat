@@ -99,7 +99,6 @@ footer * {
 .llista_simple {
     border-bottom: none;
     overflow: hidden;
-    padding: 0.875em 0 0.875em 15px;
 }
 
 .llista_simple>li {
@@ -119,8 +118,6 @@ footer * {
     display: block;
     text-align: left;
     padding: 0 2em .6em 1em;
-    width: 80%;
-    height: 25px;
     word-break: break-word;
     border-bottom: 1px solid #ddd;
     position: relative;
